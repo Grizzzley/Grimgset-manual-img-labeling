@@ -1,0 +1,115 @@
+/* QWidget -----------------------------------------*/
+QWidget {
+   background-color: #d1d1d1;
+   /*border: 1px solid #bfbfbf; For debugging*/
+   padding: 0px;
+}
+
+
+/* QPushButton -----------------------------------------*/
+QPushButton
+{
+    color: #373737;
+    background-color: #bebebe;
+    border-width: 1px;
+    border-color: #76797C;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+}
+
+
+/* QDockWidget -----------------------------------------*/
+QDockWidget {
+    background: #bebebe;
+    border: 1px solid #403F3F;
+}
+
+QDockWidget::close-button, QDockWidget::float-button {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background: transparent;
+}
+
+QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+    background: rgba(255, 255, 255, 10);
+}
+
+QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
+    padding: 1px -1px -1px 1px;
+    background: rgba(255, 255, 255, 10);
+}
+
+/* QMainWindow -----------------------------------------*/
+QMainWindow::separator {
+  background-color: #C9CDD0;
+  border: 0px solid #FAFAFA;
+  spacing: 0px;
+  padding: 2px;
+}
+
+QMainWindow::separator:hover {
+  background-color: #ACB1B6;
+  border: 0px solid #73C7FF;
+}
+
+QMainWindow::separator:horizontal {
+  width: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+QMainWindow::separator:vertical {
+  height: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+/* QStatusBar -----------------------------------------*/
+QStatusBar {
+  border: 0px solid #C9CDD0;
+  background: #C9CDD0;
+}
+
+QStatusBar::item {
+  border: none;
+}
+
+QStatusBar QLabel {
+  background: transparent;
+}
+
+
+/* QMenu -----------------------------------------*/
+QMenu
+{
+    border: 1px solid #000;
+}
+
+/* QLabel -----------------------------------------*/
+QLabel {
+  background: transparent;
+  background-color: #d1d1d1;
+  border-bottom: 1px solid #919191;
+  padding: 0px;
+}
+
+
+/* QLineEdit -----------------------------------------*/
+QLineEdit {
+  background: transparent;
+  background-color: #d1d1d1;
+  border-left: 1px solid #C9CDD0;
+  border-bottom: 1px solid #C9CDD0;
+  padding: 0px;
+}
+
+QLineEdit::hover {
+  background: transparent;
+  background-color: #c6c6c6;
+  border-left: 1px solid #C9CDD0;
+  border-bottom: 1px solid #C9CDD0;
+  padding: 0px;
+}
