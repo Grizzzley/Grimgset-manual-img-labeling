@@ -24,5 +24,5 @@ pip install -r requirements.txt
 
 And finally launch an app
 ```python
-python grimgset
+python grimgset.py
 ```
