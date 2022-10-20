@@ -1,6 +1,9 @@
 # Grimgset
-Grimgset - is a tool to label custom image datasets manually.
+Grimgset - is a tool to label custom image datasets manually. New features will be soon..
 Python 3.9+
+
+# License
+[GPLv3](https://github.com/Grizzzley/Grimgset-manual-img-labeling/blob/main/LICENSE)
 
 # Installation
 Download repository via 
