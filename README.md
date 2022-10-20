@@ -8,7 +8,7 @@ Python 3.9+
 # Installation
 Download repository via 
 ```bash
-git clone https://github.com/Grizzzley/Grimgset.git
+git clone https://github.com/Grizzzley/Grimgset-manual-img-labeling.git
 ```
 
 Activate virtual enviorment
