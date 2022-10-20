@@ -155,9 +155,6 @@ class Image_Procession(QMainWindow):
         set_name_without_list.deleteLater()
 
     def open_files(self):
-        # options = QFileDialog.Options()
-        # fileNames, _ = QFileDialog.getOpenFileNames(self, 'QFileDialog.getOpenFileName()', '',
-        #                                           'Images (*.png *.jpeg *.jpg *.bmp *.gif)', options=options)
         fileNames, _ = QFileDialog.getOpenFileNames(self, 'QFileDialog.getOpenFileName()', '',
                                                   'Images (*.png *.jpeg *.jpg *.bmp *.gif)')
         self.names = fileNames
